@@ -86,7 +86,7 @@ def generate_url(type, repo_name):
     These locally stored images will then be uploaded to Google Cloud Storage
     '''
     BASE_IMAGE_PATH = os.environ.get(
-        'BASE_IMAGE_PATH', 'BASE_IMAGE_PATH')
+        'BASE_IMAGE_PATH', 'https://storage.googleapis.com/kfascm587-a5/')
 
     # Creating the image path for model loss, LSTM generated image and all issues data image
     MODEL_LOSS_IMAGE_NAME = "model_loss_lstm_" + type + \

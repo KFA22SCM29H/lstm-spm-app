@@ -4,6 +4,7 @@ numpy
 matplotlib
 tensorflow
 keras
+scikit-learn
 sklearn
 google-cloud-storage
 flask-cors
