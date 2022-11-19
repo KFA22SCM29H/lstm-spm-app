@@ -1,0 +1,4 @@
+env
+*.png
+.dockerignore
+.DS_Store
